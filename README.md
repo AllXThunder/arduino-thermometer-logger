@@ -47,8 +47,8 @@
 ## Благодарности:
 
 Этот проект был бы невозможен без замечательных библиотек с открытым исходным кодом:
-- **OneWire** — поддерживается Paul Stoffregen (на основе оригинальной работы Jim Studt).
-- **DallasTemperature** — разработана Miles Burton.
+- **OneWire** — [Paul Stoffregen](https://github.com/PaulStoffregen/OneWire) (основано на оригинальной работе [Jim Studt](https://github.com/jimstudt))
+- **DallasTemperature** — [Miles Burton](https://github.com/milesburton/Arduino-Temperature-Control-Library)
 
 ## Контакты
 
