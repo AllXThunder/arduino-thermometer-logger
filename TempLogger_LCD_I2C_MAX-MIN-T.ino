@@ -76,17 +76,19 @@ void loop() {
     lcd.print (" C");
   }
   
-  if (tempC <= 22.0) {
+  if (tempC <= 21.0) {
     isBlinking = true;
-  } else if (tempC >= 30.0){
-      isBlinking = false;
-      digitalWrite(LED, HIGH);
-      ledState = true;
-  } else {
-      isBlinking = false;
-      digitalWrite(LED, LOW);
-      ledState = false;
+  } else if (tempC >= 23.0) {
+    isBlinking = false;
   }
+  
+  if (tempC >= 30.0) {
+    digitalWrite(LED, HIGH);
+    ledState = true;
+  } else if (tempC <= 28.0) {
+    digitalWrite(LED, LOW);
+    ledState = false;
+    }
       }
       if (isBlinking) {
     if (currentMillis - prevMillisBlink >= blinkingInterval) {
