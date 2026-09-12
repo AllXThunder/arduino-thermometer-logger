@@ -13,7 +13,7 @@
 
 ## Схема подключения:
 
-
+![temp-logger-scheme](./temp-logger-scheme.png)
 
 ---
 
